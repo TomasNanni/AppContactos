@@ -1,0 +1,48 @@
+.contenedorCentrado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: fit-content;
+    max-height: fit-content;
+    margin: auto;
+    margin-top: 10%;
+    width: 50%;
+    background-color: var(--color-primary);
+    border: var(--secondary-color) 0.4em solid;
+    border-radius: 0.75em;
+}
+
+button:hover, a:hover{
+    filter: brightness(70%);
+}
+
+.contenedorInput{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    a{
+        text-decoration: underline;
+    }
+    gap: 0.5rem;
+}
+
+header{
+    background-color: var(--color-primary);
+    text-align: center;
+    h1{
+        color: var(--color-text);
+        font-size: 1.5em;
+        padding: 0.5rem;
+    }
+}
+
+button{
+    color: var(--color-text-secondary);
+}
+
+form{
+    color: var(--color-text);
+}
